@@ -1,21 +1,21 @@
 {
   "development": {
     "username": "root",
-    "password": "@Ac081092",
+    "password": "",
     "database": "process.env.DB_Password",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "@Ac081092",
+    "password": "process.env.DB_Password",
     "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": "@Ac081092",
+    "password": "process.env.DB_Password",
     "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "mysql"
